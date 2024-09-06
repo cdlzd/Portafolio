@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Lucia Cid Lozada">
+    <meta name="description" content="Portafolio de Lucia Cid Lozada">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Lucia Cid | Estudiante del TECNM campus apizaco</title>
+    <!-- Favicon -->
+     <div>
+      <a href="imagenes/Perfil.jpeg"></a>
+     </div>
+    <link  class= "perfil" rel="icon" type="image/x-icon" href="imagenes/Perfil.jpeg" style="width: 900px;">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/logop.jfif" width="100" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/Perfil.jpeg" alt="Foto de Lucia Cid" style="width: 300px; height: 300px;">
+        <h1>Hola, soy Lucia Cid Lozada</h1>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+       <p></p>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/Interfaz.jpg" alt="Interfaz" width="600px" height="1000px">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Lucia Cid Lozada</h2>
+        <p class="seccion-texto">Hola! Mi nombre es Lucia Cid Lozada, soy del estado de Tlaxcala y orgullosa estudiante del Tecnologico Nacional de México, tengo 21 años y actualmente curso el séptimo semestre de mi carrera, la cual es Ingeniería de las Tecnologías y Comunicaciones. Me gusta la programación y el diseño de interfaces. También trabajo con arduino y las prácticas son muy interesantes</p>
+        <div ><img class = "Arduino"src="imagenes/Arduino.jpeg" alt=""></div>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo de aplicaciones</p>
+            <p>Hasta el momento solo eh trabajado con Power Apps y App Inventor para realizar aplicaciones, la progrmacion por bloque se me hace algo bastante facil y comodo para los que se interesan y van empezando </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Power Fx</span>
+              <span class="badge text-bg-primary">C ++</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Administracion de proyectos</p>
+            <p>La administracion de proyectos es un proceso bastante interesante, aunque suele ser pesado en ocasiones, llevar meticulosamente cada uno de los procesos para realizar un proyecto es una buena practica. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Escribir</span>
+              <span class="badge text-bg-primary">Redactar</span>
+              <span class="badge text-bg-primary">Analizar</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Llevar actividades complementarias como el deporte es una buena opcion para mantenerte saludabl. En lo personal, Me gusta el futbol y estuve en el selectivo de mi institucion. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tecnm Campus Apizaco</span>
+              <span class="badge text-bg-primary">Toritos tecnm</span>
+              <span class="badge text-bg-primary">futbol</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis actividades recientes</h2>
+      <h3 class="seccion-descripcion">Estas son algunas de las actividades que realizo recientemente</h3>
+     
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img class= "Deporte"src="imagenes/Deportes.jpeg" alt="Proyecto 1" style="height:270px; width: 250px;">
+              <div class="overlay">
+                <p>DEPORTE</p>
+                <p style="font-weight: normal; font-size: larger;"> Mi deporte favorito es futbol, aunque tambien me eh desmpeñado en el voleybol.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img class=" radio" src="imagenes/radio.jpeg" alt="Proyecto 1" style="height: 280px; width: 220px;">
+              <div class="overlay">
+                <p>RADIO</p>
+                <p style="font-weight: normal; font-size: larger;"> Estuve participando como locutora en la radio de la escuela como locutora de noticias.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img class="gym" src="imagenes/gimnasio.jpeg" alt="Proyecto 3" style="width: 250px;">
+              <div class="overlay">
+                <p>GYM</p>
+                <p style="font-weight: normal; font-size: larger;"> Levantar pesas tambie fue uno de mis pasatiempo y deportes, entre otras rutinas del gimnasio me sentia bien asistiendo con mis amigos a ejercitarme.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img class="modelo" src="imagenes/modelo.jpeg" alt="Proyecto 1" style="width: 250px; height: 300px;">
+              <div class="overlay">
+                <p>MODELAJE</p>
+                <p style="font-weight: normal; font-size: larger;"> Estuve ayudando a una amiga a preparase en su curso de estilismo, por lo que experimento con el maquillaje, mi cabello y al final su proyecto consistio en realizarme un bodypaint, el cual modele para el publico y los jueces.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img class="estilo" src="imagenes/Estilo.jpeg" alt="Proyecto 5" style="width: 240px;">
+              <div class="overlay">
+                <p>ESTILO DE VIDA</p>
+                <p style="font-weight: normal; font-size: larger;"> Me gusta la vida de campo y montar a caballo, aunque estudio en la ciudad, mi lugar favorito es el campo con mi familia </p>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img class= "pasatiempos"src="imagenes/Pasatiempos.jpeg" alt="Proyecto 1" style="width: 180px;">
+              <div class="overlay">
+                <p class="titulop">PASATIEMPOS:</p>
+                <p class="parrafo" style="font-weight: normal; font-size: larger;"> En mis tiempos libre, los fines de semana visito lugares con mi familia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion" style="text-align: center;">A continuación, presento algunas opiniones de mis compañeros acerca de mi, <br>mis trabajos y la experiencia que han tenido trabajando conmigo</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Mari.jfif" alt="Foto de Mari">
+              <p class="testimonio-texto">La conozco desde hace seis años y me parece una chica responsable y atenta a sus proyectos, tanto laborales como de vida personal.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Mari</p>
+                <p class="cargo">Compañera de preparatoria</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/daza.jfif" alt="Foto de Daza">
+              <p class="testimonio-texto">He trabajado con ella y puedo decir que es atenta a sus trabajos y su forma de trabajar en equipo e indivudual es excelente.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Sebastian</p>
+                <p class="cargo">Compañero de universidad y carrera</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Ines.png" alt="Foto de Ines">
+              <p class="testimonio-texto">Trabajar con ella fue bastante sencillo, ya que, ademans de poseer rasgos que me facilitaron el trbajo, fue una modelo muy buena, mi calificacion final del proyecto, con respecto a su modelaje y mi trabajo, fue la mejor de mi generacion.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Ines</p>
+                <p class="cargo">Estilista</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Braus.png" alt="Foto de Braus">
+              <p class="testimonio-texto">Llevar un proyecto con ella me facilito muchas cosas y aprendi mucho, ya que sabe liderar y organizar las actividades.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Brauio</p>
+                <p class="cargo">Compañero de universidad</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de programacion o asesoria.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:lucycidlozada290603@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://x.com/Honey290603?t=JVVaVx5TTbVk0jMiAfWcxA&s=09" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/cdlzd/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/lucia-cid-lozada-514240254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/lucy.p_q?igsh=cnRnMHU5eGdnNnJy" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Lucia Cid Lozada (2024) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
